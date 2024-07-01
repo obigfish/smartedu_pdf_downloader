@@ -12,16 +12,11 @@ PDF Finder 是一个简单的Chrome/Edge扩展，可以帮助你在智慧中小�
 1. **克隆仓库：**
 
     ```sh
-    git clone [https://github.com/yourusername/pdf-finder-extension](https://github.com/obigfish/smartedu_pdf_downloader).git
+    git clone  https://github.com/obigfish/smartedu_pdf_downloader.git
     ```
-
-2. **导航到项目目录：**
-
-    ```sh
-    cd pdf-finder-extension
-    ```
-
-3. **在Chrome中加载扩展：**
+    或者直接下载文件，然后解压
+   
+ 2.  **在Chrome中加载扩展：**
    - 打开Chrome并访问 `chrome://extensions/`。在Edge里访问 `edge://extensions/`
    - 打开“开发者模式”。
    - 点击“加载已解压的扩展程序”按钮，然后选择你克隆的仓库目录。
