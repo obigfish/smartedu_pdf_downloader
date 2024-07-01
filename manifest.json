@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "PDF Finder",
+  "version": "1.0",
+  "description": "A simple Chrome extension to find PDF links.",
+  "permissions": [
+    "webRequest",
+    "webNavigation",
+    "activeTab",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
